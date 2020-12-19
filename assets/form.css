@@ -1,0 +1,104 @@
+body {
+	
+}
+.column{
+	/*border: 1px solid black; */
+	width: 50%;
+	margin: 0px auto;
+}
+
+.page  .column {
+	height: 100vh;
+}
+#pocetna-forma{
+	text-align: center;
+	color: #fff;
+	/*background: url('images/pozadina.jpg');*/
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#pocetna-forma h1 {
+	font-size: 30pt;
+	margin-top: 0px;
+	padding-top: 15px;
+}
+.forma {
+	text-align: center;
+}
+.forma1{
+	background-color: #000;
+	color: #fff;
+	width: 75%;
+	margin-left: 12.5%;
+	margin-top: 20px;
+	text-align: center;
+	border: 2px solid #fff;
+	padding-top: 20px;
+}
+.dark-box{
+	background-color: #33333330;
+	border: 1px solid #fff;
+	font-size: 24pt;
+	padding: 30px;
+}
+.levot{
+	float: left;
+}
+.tamno {
+	background-color: #333333c1;
+}
+/*pokusaj-beta*/
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #82ccdd;
+}
+
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+
+
+#dugmic {
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 20px;
+}
+
+#konfirmacija {
+	text-align: center;
+	width: 400px;
+    background-color: #ccddffC0;
+    outline: 2px solid black;
+	border: 3px solid #dc0101;
+    outline-offset: 15px;
+    margin-top: 10%;
+    padding: 20px;
+	margin-left: 40%;
+}
+
+#konfirmacija2 {
+	color: #fff;
+	text-align: center;
+	width: 400px;
+    background-color: #800000;
+    outline: 2px solid black;
+	border: 3px solid #fff;
+    outline-offset: 15px;
+    margin-top: 10%;
+    padding: 20px;
+	margin-left: 40%;
+	opacity: 0.85;
+}

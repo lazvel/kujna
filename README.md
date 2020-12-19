@@ -1,0 +1,1 @@
+Just some basic stuff while learning HTML, CSS, JS, PHP and MySQL

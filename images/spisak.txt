@@ -1,0 +1,24 @@
+1-karadjordjeva
+2-becka
+3-biftek
+4-pizza
+5-png boljoneze
+6-mantije
+7-burek s mesom
+8-sarma
+9-domaca prsuta
+10-riba
+11-rostilj
+12-musaka
+13-punjene paprike
+14-gibanica
+15-teleca
+16-riblja
+17-gulas
+---------------------
+sl1-png za slajder
+sl2- png
+sl-3 jpg
+sl-4 png
+sl-5 png
+sl-6 jpg

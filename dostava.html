@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+	<head>
+		<title>Rezervacije</title>
+		<meta charset= "utf-8">
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="assets/main.css">
+		<link rel="stylesheet" href="assets/drop.css">
+		<link rel="stylesheet" href="assets/kontakt.css">
+		<link rel="stylesheet" href="assets/form.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			.pikcr{
+				margin-left:5px;
+			}
+			
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		
+	</head>
+	<body background="images/pozadina.jpg">
+			<header>
+				<div class="navbar">
+					<a class="pikcr" href="index.html"><img class="logo" src="images/logoviljuske.png" alt=""/></a>
+					<a href="index.html">Početna</a>
+					<a href="jela.html">Jela</a>
+					<div class="dropdown">
+						<button class="dropbtn">Info 
+						<i class="fa fa-caret-down"></i>
+						</button>
+					<div class="dropdown-content">
+						<a href="onama.html">O nama</a>
+						<a href="omeni.html">O meni</a>
+				
+					</div>
+					</div> 
+					<a href="rez.html">Rezervacije</a>
+					<a href="dostava.html">Dostava</a>
+				</div>
+			
+			</header>
+			<div class="page" id="pocetna-forma">
+			<div class="column">
+				<h1>DOSTAVA</h1>
+				<h2><p class="align-center">Narucite i uzivajte</p></h2>
+			
+				<div class="light-box svetlo">
+					<form class="forma1" name="order" method="POST" action="Order.php">
+						<legend>Vaše informacije: </legend>
+				    		<input type="text" class="contact-form-text" name="username" placeholder="Ime" required>
+							<input type="text" class="contact-form-text" name="adress" placeholder="Adresa-Ime, broj, stan" required>
+							
+							<input type="text" class="contact-form-text" name="phone" placeholder="Telefon" required>
+							
+							<input type="text" class="contact-form-text" name="orderi" id="i-order" list="ordering" placeholder="Zelim da narucim" required>
+							<datalist id="ordering">
+								<option value="Karadjordjeva snicla">
+								<option value="Becka snicla">
+								<option value="Pica kulen">
+								<option value="Pica pecenica">
+								<option value="Pica sunka">
+								<option value="Pasta boljoneze">
+								<option value="Mantije sa mesom">
+								<option value="Sarma">
+								<option value="Riba-pastrmka">
+								<option value="Riba-skusa">
+								<option value="Riba-som">
+								<option value="Riba-smudj">
+								<option value="Gulas">
+								<option value="Pasulj">
+							</datalist>
+							
+							<input type="text" class="contact-form-text" name="prilog" id="i-order" list="prilog" placeholder="Prilog(3 max)" required>
+							<datalist id="prilog">
+								<option value="Urnebes salata">
+								<option value="Kupus salata">
+								<option value="Zelena salata">
+								<option value="Luk">
+								<option value="Kecap">
+								<option value="Majonez">
+								<option value="Pavlaka">
+								<option value="Tucana paprika">
+							</datalist>
+							
+							<textarea class="contact-form-text" name="text" placeholder="Dodatno-napomena"></textarea>
+							
+							<input type="submit" id="dugmic" value="Posalji" onclick="prijava();"/>
+					
+					</form>
+				</div>
+			</div>
+		</div>
+	
+	<footer>
+				<div class="foot"><h3>Copyright &copy; 2018. All rights reserved. | Design: Lazar Velimirović | Images: web|<a href="utisci.html">Utisci</a></h3></div>
+			</footer>
+		<script src ="main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,44 @@
+.forma{
+	background-color: #000;
+	color: #fff;
+	width: 75%;
+	margin-left: 12.5%;
+	margin-top: 50px;
+	opacity: 0.8;
+	text-align: center;
+}
+#wrapp{
+	width: 99%;
+	
+}
+
+p{
+	margin-top: 10px;
+}
+input{
+	margin-top: 10px;
+}
+.prvil{
+	margin-bottom: 10px;
+}
+
+#dugme{
+	width:70px;
+	height: 40px;
+}
+
+footer {
+		clear: both;
+		margin-top: -100px;
+		position: relative;
+		height: 40px;
+		width: 100%;
+		background-color: #806000;
+		text-align: center;
+		padding-top: 25px;
+		font-size: 12pt;
+		color: gold;
+		left: 0px;
+		bottom: 0px;
+		margin-top: 10px;
+	}

@@ -1,0 +1,216 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+html{
+	height: 100%;
+    scroll-behavior: smooth;
+}
+body{
+	height: 100%;
+    
+}
+#wrapp{
+	width:1900px;
+	min-height: 100%;
+	text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+header{
+	margin: 0;
+	width: 100%;
+	height: 60px;
+}
+header h1{
+	font-family: Georgia, serif;
+	margin:0px;
+	border: 1px solid #f1f1f1;
+	border-radius:20px;
+	color: #d6f5f5;
+	text-align: center;
+	line-height: 60px;
+	font-size: 1.5em;
+}
+
+
+/*ARTIKLI I JELA*/
+.article{
+	border: 1px solid #00bfff;
+	/*ovo menjano*/
+	width: 100%;
+	height:240px; 
+	color:#fff;
+	background-color:red; 
+	opacity: 0.8;
+	margin-right: 0px auto;
+	padding-top: 15px;
+}
+.bela{
+	color: #fff;
+}
+.slmain{
+	float: right;
+}
+.article1{
+	border: 1px solid #00bfff;
+	width: 100%;
+	height:240px; 
+	color:#d6f5f5; 
+	background-color: #990000; 
+	opacity: 0.8;
+	padding-top: 15px;
+}
+#zlatna{
+	color: gold;
+}
+.text{
+	margin-left: 300px; 
+	font-size: 14pt; 
+	text-align: center;
+	
+}
+/*Slike sa hover-om za stranicu jela*/
+.textWithBl{
+	width: 300px;
+	height: 200px;
+	margin: 4px;
+	display: inline-block;
+	background-size: 100%;
+	background-position: center;
+	position: relative;
+	transition: .3s;
+	background-size: 100%;
+}
+.textWithBl:hover{
+	background-size: 110%;
+}
+.textWithBl img{
+	padding: left: 10px;
+	width: 100%;
+	height: 100%;
+	transition: .3s;
+	
+}
+.textWithBl:hover img{
+	filter: blur(2px) brightness(60%);
+	box-shadow: 0 0 16px cyan;
+}
+.textWithBl :not(img){
+	position: absolute;
+	top: 40%;
+	z-index: 1;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	opacity: 0;
+	transition: .3s;
+}
+.textWithBl h3{
+    top:55%
+  }
+.textWithBl:hover :not(img){
+	opacity: 1;
+}
+
+
+section{
+	margin-top: 7px;
+	padding-left: 20%;
+	width: 1000px;
+	height: 100%;
+	float: left;
+} 
+#aboutm{
+	margin-top: 20px;
+	width: 900px;
+	height: 400px;
+	background-color: #ff1a1a;
+	text-align: center;
+	font-family: arial;
+	margin-left: 25%;
+	opacity: 0.9;
+	padding-top: 10px;
+}
+#aboutm p{
+	padding-top: 3px;
+	font-size: 14pt;
+}
+#aboutm2{
+	margin-top: 20px;
+	width: 900px;
+	height: 400px;
+	background-color: #66c2ff;
+	text-align: center;
+	font-family: arial;
+	margin-left: 26.3%;
+	opacity: 0.9;
+	padding-top: 10px;
+}
+#aboutm2 p{
+	padding-top: 3px;
+	font-size: 14pt;
+}
+#engl{
+	margin-top: 10px;
+	width: 70px;
+	height: 30px;
+	
+}
+aside{
+	margin-top: 10px;
+	width: 300px;
+	height: 100%;
+	background: #EEE1E1;
+	float: left;
+}
+#holder{
+	width: 300px;
+	height: 200px;
+	background: #ffcccc;
+	border:1px solid gray;
+}
+#info{
+	width: 260px;
+	height: 400px;
+	padding: 20px;
+	background: #990000;
+	color: #d6f5f5;
+	border: 1px solid #00bfff;
+}
+
+.align-center{
+	text-align: center;
+}
+
+footer {
+		clear: both;
+		margin-top: -100px;
+		position: relative;
+		height: 40px;
+		width: 101%;
+		text-align: center;
+		padding-top: 25px;
+		left: 0px;
+		bottom: 0px;
+		opacity: 0.8;
+	}
+.foot{
+	background-color: #806000;
+	color: gold;
+	font-size: 16pt;
+}
+.foot a {
+	text-decoration: none;
+	color: gold;
+}
+/*ovde za slajder*/
+
+/*proba back to top*/
+#backtotop{z-index:999; display:inline-block; position:fixed; visibility:hidden; bottom:70px; right:20px; width:36px; height:36px; line-height:36px; font-size:16px; text-align:center; opacity:.2;}
+#backtotop i{background: yellow; display:block; width:100%; height:100%; line-height:inherit;}
+#backtotop.visible{visibility: visible; opacity:.5;}
+#backtotop:hover{opacity:1;}

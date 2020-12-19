@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rezervacije</title>
+		<meta charset= "utf-8">
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="assets/main.css">
+		<link rel="stylesheet" href="assets/drop.css">
+		<link rel="stylesheet" href="assets/kontakt.css">
+		<link rel="stylesheet" href="assets/form.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			.pikcr{
+				margin-left:5px;
+			}
+			
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		
+	</head>
+	<body background="images/pozadina.jpg">
+			<header>
+				<div class="navbar">
+					<a class="pikcr" href="index.html"><img class="logo" src="images/logoviljuske.png" alt=""/></a>
+					<a href="index.html">Početna</a>
+					<a href="jela.html">Jela</a>
+					<div class="dropdown">
+						<button class="dropbtn">Info 
+						<i class="fa fa-caret-down"></i>
+						</button>
+					<div class="dropdown-content">
+						<a href="onama.html">O nama</a>
+						<a href="omeni.html">O meni</a>
+				
+					</div>
+					</div> 
+					<a href="rez.html">Rezervacije</a>
+					<a href="dostava.html">Dostava</a>
+				</div>
+			
+			<!--bio h1jela-->
+			</header>
+            <div class="page "id="pocetna-forma">
+                <div class="column">
+                    <h1>Rezervacije</h1>
+                    <strong><p class="align-center">Ukoliko zelite da rezervisete vase mesto popunite formu</p></strong>
+			    <div clas="dark-box tamno">
+                    <form class="forma" name="reservation" method="POST" action="Kuk.php">
+				    	<fieldset class="levo">
+				    		<legend>Vaše informacije: </legend>
+				    		<td>
+				    		<label for= "name">Username: </label>
+                            <input type = "text" name="username" id="name" />
+				    		<span id="Ime"></span><br>
+				    		</td>
+				    		
+                            <td>
+				    		<label for = "email">Email: </label>
+                            <input type="text" name="email" id="email" />
+				    		<span id="Mejl"></span><br>
+				    		</td>
+				    		
+                            <td>
+                            <label for= "phone">Telefon: </label>
+                            <input type="tel" name="phone" id="phone" />
+				    		<span id="Tel"></span>
+				    		</td>
+				    	</fieldset>
+				    	<br>
+				    	<fieldset class="levo">
+				    		<legend>Detalji rezervacije: </legend>
+                            <td>
+				    		<label for="datum">Izaberite datum: </label>
+                            <input id = "datum" type="date" name="date" min="2019-06-15"/>
+                            </td>
+                            
+                            <td>
+				    		<label for="brg">Izaberite broj gostiju: </label>
+                            <input type="number" id="brg"  name="numberOfGuests" min="1" max="6"/>
+                            </td>
+                            
+                            
+				    		<p>Kada vam odgovara</p>
+                            <td>
+				    		<label for="rucak">Ručak: </label>
+                            <input id="rucak" type = "radio" name="vreme" value="rucak"/>
+				    		<label for="vecera">Večera: </label><input id="vecera" type= "radio" name="vreme" value="vecera"/>
+                            </td>
+                            
+				    		<br>
+                            <td>
+				    		<label for = "yes">Slažem se sa uslovima korišćenja </label>
+                            <input id="cek" type ="checkbox" name="agree" value="Da"/ >
+				    		<span id="Provera"></span></td>
+				    		<br>
+                            <td>
+				    		<input id="dugme" type="submit" value="Pošalji" onclick="prijava();"/></td>
+				    	</fieldset>
+                    </form>
+                </div>
+                </div>
+			</div>
+		<footer>
+				<div class="foot"><h3>Copyright &copy; 2018. All rights reserved. | Design: Lazar Velimirović | Images: web | <a href="utisci.html">Utisci</a></h3></div>
+			</footer>
+		<script src ="main.js"></script>
+	</body>
+</html>
